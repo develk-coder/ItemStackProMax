@@ -1,0 +1,12 @@
+{
+  "text.autoconfig.itemstackpromax.title": "ItemStack§9Pro§3Max",
+  "text.autoconfig.itemstackpromax.option.MaxStackSize.@PrefixText": "Stack",
+  "text.autoconfig.itemstackpromax.option.MaxStackSize": "MaxStackSize",
+  "text.autoconfig.itemstackpromax.option.Tooltips.@PrefixText": "Info",
+  "text.autoconfig.itemstackpromax.option.Tooltips": "Tooltips",
+  "text.autoconfig.itemstackpromax.option.Scope": "Scope",
+  "tooltip.itemstackpromax.stack": "Stack: %1$s",
+  "modmenu.descriptionTranslation.itemstackpromax": "Item Stack...ProMax！",
+  "modmenu.summaryTranslation.itemstackpromax": "Item Stack...ProMax！",
+  "modmenu.nameTranslation.itemstackpromax": "ItemStackProMax"
+}

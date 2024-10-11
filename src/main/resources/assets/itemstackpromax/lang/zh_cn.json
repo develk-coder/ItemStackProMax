@@ -1,0 +1,12 @@
+{
+  "text.autoconfig.itemstackpromax.title": "物品堆叠§9Pro§3Max",
+  "text.autoconfig.itemstackpromax.option.MaxStackSize.@PrefixText": "堆叠",
+  "text.autoconfig.itemstackpromax.option.MaxStackSize": "物品堆叠最大值",
+  "text.autoconfig.itemstackpromax.option.Tooltips.@PrefixText": "信息",
+  "text.autoconfig.itemstackpromax.option.Tooltips": "工具提示",
+  "text.autoconfig.itemstackpromax.option.Scope": "显示范围",
+  "tooltip.itemstackpromax.stack": "堆叠：%1$s",
+  "modmenu.descriptionTranslation.itemstackpromax": "物品堆叠...ProMax！",
+  "modmenu.summaryTranslation.itemstackpromax": "物品堆叠...ProMax！",
+  "modmenu.nameTranslation.itemstackpromax": "物品堆叠ProMax"
+}

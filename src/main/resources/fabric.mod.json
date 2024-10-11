@@ -1,0 +1,44 @@
+{
+	"schemaVersion": 1,
+	"id": "itemstackpromax",
+	"version": "${version}",
+	"name": "ItemStackProMax",
+	"description": "",
+	"authors": [
+		"develk"
+	],
+	"contact": {
+		"homepage": "https://develk-coder.github.io/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/itemstackpromax/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"develk.itemstackpromax.ItemStackProMax"
+		],
+		"modmenu": [
+			"develk.itemstackpromax.config.ModMenuIntegration"
+		]
+	},
+	"mixins": [
+		"itemstackpromax.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.7",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*",
+		"cloth-config": ">=15.0.140"
+	},
+	"suggests": {},
+	"custom": {
+		"modmenu": {
+			"links": {
+				"官方交流群": "https://qm.qq.com/q/xyHLejXWkE"
+			},
+			"update_checker": false
+		}
+	}
+}

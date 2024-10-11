@@ -1,0 +1,17 @@
+{
+	"required": true,
+	"package": "develk.itemstackpromax.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"DataComponentTypesMixin",
+		"InventoryMixin",
+		"ItemMixin",
+		"ItemStackMixin"
+	],
+	"client": [
+		"DrawContextMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

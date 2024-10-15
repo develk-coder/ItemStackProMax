@@ -1,6 +1,6 @@
 # ItemStackProMax
 
-![icon](C:\Users\YanHan\Desktop\Fabric-dev\ItemStackProXax-1.21.1-fabric\src\main\resources\assets\itemstackpromax\icon.png)
+![icon](src\main\resources\assets\itemstackpromax\icon.png)
 
 ## 配置
 

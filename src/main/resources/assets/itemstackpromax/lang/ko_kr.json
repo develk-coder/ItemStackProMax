@@ -1,0 +1,12 @@
+{
+  "text.autoconfig.itemstackpromax.title": "아이템스택§9Pro§3Max",
+  "text.autoconfig.itemstackpromax.option.MaxStackSize.@PrefixText": "스택",
+  "text.autoconfig.itemstackpromax.option.MaxStackSize": "최대스택크기",
+  "text.autoconfig.itemstackpromax.option.Tooltips.@PrefixText": "정보",
+  "text.autoconfig.itemstackpromax.option.Tooltips": "툴팁",
+  "text.autoconfig.itemstackpromax.option.Scope": "범위",
+  "tooltip.itemstackpromax.stack": "스택: %1$s",
+  "modmenu.descriptionTranslation.itemstackpromax": "아이템 스택...프로맥스!",
+  "modmenu.summaryTranslation.itemstackpromax": "아이템 스택...프로맥스!",
+  "modmenu.nameTranslation.itemstackpromax": "아이템스택프로맥스"
+}

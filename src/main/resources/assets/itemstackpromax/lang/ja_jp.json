@@ -1,0 +1,12 @@
+{
+  "text.autoconfig.itemstackpromax.title": "アイテムスタック§9Pro§3Max",
+  "text.autoconfig.itemstackpromax.option.MaxStackSize.@PrefixText": "スタック",
+  "text.autoconfig.itemstackpromax.option.MaxStackSize": "最大スタックサイズ",
+  "text.autoconfig.itemstackpromax.option.Tooltips.@PrefixText": "情報",
+  "text.autoconfig.itemstackpromax.option.Tooltips": "ツールチップ",
+  "text.autoconfig.itemstackpromax.option.Scope": "範囲",
+  "tooltip.itemstackpromax.stack": "スタック: %1$s",
+  "modmenu.descriptionTranslation.itemstackpromax": "アイテムスタック…プロマックス！",
+  "modmenu.summaryTranslation.itemstackpromax": "アイテムスタック…プロマックス！",
+  "modmenu.nameTranslation.itemstackpromax": "アイテムスタックプロマックス"
+}

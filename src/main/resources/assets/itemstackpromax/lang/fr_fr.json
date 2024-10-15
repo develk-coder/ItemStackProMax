@@ -1,0 +1,12 @@
+{
+  "text.autoconfig.itemstackpromax.title": "ItemStack§9Pro§3Max",
+  "text.autoconfig.itemstackpromax.option.MaxStackSize.@PrefixText": "Empiler",
+  "text.autoconfig.itemstackpromax.option.MaxStackSize": "Taille MaxStack",
+  "text.autoconfig.itemstackpromax.option.Tooltips.@PrefixText": "Informations",
+  "text.autoconfig.itemstackpromax.option.Tooltips": "Info-bulles",
+  "text.autoconfig.itemstackpromax.option.Scope": "Portée",
+  "tooltip.itemstackpromax.stack": "Pile : %1$s",
+  "modmenu.descriptionTranslation.itemstackpromax": "Pile d'articles...ProMax！",
+  "modmenu.summaryTranslation.itemstackpromax": "Pile d'articles...ProMax！",
+  "modmenu.nameTranslation.itemstackpromax": "ArticleStackProMax"
+}

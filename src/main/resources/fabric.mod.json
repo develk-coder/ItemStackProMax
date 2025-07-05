@@ -4,15 +4,16 @@
   "version": "${version}",
   "name": "ItemStackProMax",
   "description": "",
-  "authors": [],
-  "contact": {},
+  "authors": [
+    "develk"
+  ],
+  "contact": {
+    "homepage": "https://develk-coder.github.io/"
+  },
   "license": "MIT",
   "icon": "assets/itemstackpromax/icon.png",
   "environment": "*",
   "entrypoints": {
-    "client": [
-      "develk.itemstackpromax.client.ItemStackProMaxClient"
-    ],
     "main": [
       "develk.itemstackpromax.ItemStackProMax"
     ]

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "itemstackpromax",
+  "version": "${version}",
+  "name": "ItemStackProMax",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/itemstackpromax/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "develk.itemstackpromax.client.ItemStackProMaxClient"
+    ],
+    "main": [
+      "develk.itemstackpromax.ItemStackProMax"
+    ]
+  },
+  "mixins": [
+    "itemstackpromax.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

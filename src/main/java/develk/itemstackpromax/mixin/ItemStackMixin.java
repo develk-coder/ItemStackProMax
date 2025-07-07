@@ -6,7 +6,6 @@ import develk.itemstackpromax.Config;
 import net.minecraft.component.ComponentChanges;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
-import net.minecraft.registry.entry.RegistryEntry;
 import net.minecraft.util.dynamic.Codecs;
 import org.spongepowered.asm.mixin.Final;
 import org.spongepowered.asm.mixin.Mixin;
@@ -23,16 +22,13 @@ public class ItemStackMixin {
     @Shadow
     @Final
     public static Codec<ItemStack> CODEC;
-    @Shadow
-    @Final
-    public static Codec<RegistryEntry<Item>> ITEM_CODEC;
 
     @Inject(method = "<clinit>", at = @At("TAIL"))
     private static void overrideITEM_CODEC(CallbackInfo ci) {
         CODEC = Codec.lazyInitialized(
                 () -> RecordCodecBuilder.create(
                         instance -> instance.group(
-                                        ITEM_CODEC.fieldOf("id").forGetter(ItemStack::getRegistryEntry),
+                                        Item.ENTRY_CODEC.fieldOf("id").forGetter(ItemStack::getRegistryEntry),
                                         Codecs.rangedInt(1, Integer.MAX_VALUE).fieldOf("count").orElse(1).forGetter(ItemStack::getCount),
                                         ComponentChanges.CODEC.optionalFieldOf("components", ComponentChanges.EMPTY).forGetter(ItemStack::getComponentChanges)
                                 )

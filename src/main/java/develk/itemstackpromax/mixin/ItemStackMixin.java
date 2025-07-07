@@ -1,6 +1,6 @@
 package develk.itemstackpromax.mixin;
 
-import com.mojang.serialization.Codec;
+import com.mojang.serialization.MapCodec;
 import com.mojang.serialization.codecs.RecordCodecBuilder;
 import develk.itemstackpromax.Config;
 import net.minecraft.component.ComponentChanges;
@@ -21,12 +21,13 @@ public class ItemStackMixin {
     @Mutable
     @Shadow
     @Final
-    public static Codec<ItemStack> CODEC;
+    public static MapCodec<ItemStack> MAP_CODEC;
 
     @Inject(method = "<clinit>", at = @At("TAIL"))
     private static void overrideITEM_CODEC(CallbackInfo ci) {
-        CODEC = Codec.lazyInitialized(
-                () -> RecordCodecBuilder.create(
+        MAP_CODEC = MapCodec.recursive(
+                "ItemStack",
+                codec -> RecordCodecBuilder.mapCodec(
                         instance -> instance.group(
                                         Item.ENTRY_CODEC.fieldOf("id").forGetter(ItemStack::getRegistryEntry),
                                         Codecs.rangedInt(1, Integer.MAX_VALUE).fieldOf("count").orElse(1).forGetter(ItemStack::getCount),
